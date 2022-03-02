@@ -1,2 +1,2 @@
 file --mime-type -m school.mgc
-file *.text
+file -m school.mgc
