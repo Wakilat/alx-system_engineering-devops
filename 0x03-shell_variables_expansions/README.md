@@ -19,4 +19,6 @@ export BEST=School
 echo $(($TRUEKNOWLEDGE+128))
 9. Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 echo $(($POWER/$DIVIDE))	
-10.
+10.Write a script that displays the result of BREATH to the power LOVE
+echo $(($BREATH**$LOVE))
+
