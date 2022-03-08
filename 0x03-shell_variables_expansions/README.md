@@ -37,3 +37,5 @@ printf "%0.2f\n" $NUM
 The number in base 10 is stored in the environment variable DECIMAL
 The script should display the number in base 16, followed by a new line
 printf "%x\n" $DECIMAL
+15. Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
