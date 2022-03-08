@@ -7,3 +7,5 @@ echo "hello $USER"
 PATH=$PATH:/action
 3. Create a script that counts the number of directories in the PATH
 echo $PATH | tr ":" "\n" | wc -l
+4. Create a script that lists environment variables.
+printenv
