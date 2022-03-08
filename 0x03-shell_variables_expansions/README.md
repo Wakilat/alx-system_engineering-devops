@@ -21,4 +21,5 @@ echo $(($TRUEKNOWLEDGE+128))
 echo $(($POWER/$DIVIDE))	
 10.Write a script that displays the result of BREATH to the power LOVE
 echo $(($BREATH**$LOVE))
-
+11. Write a script that converts a number from base 2 to base 10.
+echo $((2#$BINARY))
