@@ -30,3 +30,6 @@ The output should be alpha ordered, starting with aa
 Do not print oo
 Your script file should contain maximum 64 characters
 echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
+13. Write a script that prints a number with two decimal places, followed by a new line.
+The number will be stored in the environment variable NUM
+printf "%0.2f\n" $NUM
