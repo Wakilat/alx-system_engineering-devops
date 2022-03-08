@@ -45,4 +45,4 @@ paste -d" " - - | cut -d " " -f 1
 WATER is in base water
 STIR is in base stir.
 The result should be in base bestchol
-printf "%o\n" $(( $#$(echo $STIR | tr stir. '0-4 ) )) + $(( 5#$(echo $WATER \ tr water '0-4') )) |tr '0-7' bestchol
+printf "%o\n" $(( $#$(echo $STIR | tr stir. '0-4 ) )) + $(( 5#$(echo $WATER \ tr water '0-4') )) |tr '0-7' behlnort
